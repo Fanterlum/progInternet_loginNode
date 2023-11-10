@@ -1,0 +1,63 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+  color: #333;
+}
+
+/* Estilo para el enlace "Regresar al Dashboard" */
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+/* Estilo para el formulario */
+form {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Estilo para las etiquetas de formulario */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Estilo para los campos de entrada de formulario */
+input[type="date"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo para el botón de envío */
+button[type="submit"] {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Estilo para el botón de envío al pasar el ratón por encima */
+button[type="submit"]:hover {
+  background-color: #0055aa;
+}

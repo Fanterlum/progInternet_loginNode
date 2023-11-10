@@ -1,0 +1,17 @@
+{
+  "name": "primer_proyecto",
+  "version": "1.0.0",
+  "description": "Primer proyecto con node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha"
+  },
+  "author": "vicente",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "picocolors": "^1.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}

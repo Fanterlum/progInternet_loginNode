@@ -1,0 +1,46 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Estilo para el encabezado h1 */
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilo para el subencabezado h2 */
+  h2 {
+    color: #444;
+  }
+  
+  /* Estilo para la lista de horas registradas */
+  #hours-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  #hours-list li {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el enlace "Registrar Horas" */
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  /* Estilo para el enlace "Registrar Horas" al pasar el ratón por encima */
+  a:hover {
+    color: #0055aa;
+  }
+  
